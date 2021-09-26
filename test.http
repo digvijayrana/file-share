@@ -1,0 +1,18 @@
+####
+POST  http://localhost:3000/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "empId":"HBFH",
+    "password":"BFBD"
+}
+
+###
+POST  http://localhost:3000/files/send HTTP/1.1
+Content-Type: application/json
+
+{
+    "uuid":"165ef1e0-a79d-480c-9403-df5de9175f7c",
+    "emailTo":"digvijaygaur96@gmail.com",
+    "emailFrom":"digvijayrana0696@gmail.com"
+}
