@@ -1,1 +1,4 @@
 node module
+.env
+!uploads/.gitkeep
+uploads/*
